@@ -32,9 +32,8 @@ namespace quickdocs;
 class Quickdocs_Plugin {
 
 
-
 	const PLUGIN_FILE = __FILE__;
-	const VERSION     = '1.0.1';
+	const VERSION     = '1.0.0';
 	const PLUGIN_DIR  = WP_PLUGIN_DIR . '/quickdocs';
 	const PLUGIN_URL  = WP_PLUGIN_URL . '/quickdocs';
 

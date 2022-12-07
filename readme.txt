@@ -5,7 +5,7 @@ Requires at least: 5.2
 Tested up to: 6.1
 Requires PHP: 7.4.0
 License: GPLv3 or later
-Stable tag: trunk
+Stable tag: 1.0.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Quickly create modern, functional documentation without making a new site.
