@@ -1,0 +1,14 @@
+{
+    "name": "wrd/quickdocs",
+    "description": "uickly create modern, functional documentation without making a new WordPress site.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "kyle",
+            "email": "kyle@webresultsdirect.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
