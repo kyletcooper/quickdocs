@@ -498,7 +498,7 @@ body:not(.scheme-dark) .colorscheme-toggle-light, body.scheme-dark .colorscheme-
 #quickdocs #nav .current-menu-ancestor > a{
     color: var(--clr-text-bold);
 }
-#quickdocs #nav .current-menu-item a {
+#quickdocs #nav .current-menu-item > a {
     color: var(--clr-active);
 }
 
