@@ -364,7 +364,10 @@ function get_generic_topic( $post = null ) {
 	foreach ( $terms as $term ) {
 		$ancestors = get_ancestors( $term->term_id, Quickdocs_Posttype::TOPICS_TAXONOMY );
 		$term      = get_term( end( $ancestors ), Quickdocs_Posttype::TOPICS_TAXONOMY );
-		return $term->name;
+		
+		if(!is_wp_error( $term ) && $term){
+			return $term->name;
+		}
 	}
 
 	return null;
